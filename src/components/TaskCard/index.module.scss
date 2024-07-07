@@ -1,0 +1,26 @@
+.cardContainer {
+  border-radius: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  padding: 1rem;
+  gap: 1rem;
+  background-color: #e2dfd0;
+  cursor: pointer;
+  .row_1 {
+    font-weight: 600;
+  }
+  .row_2 {
+    font-size: 0.875rem;
+  }
+  .row_3 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.dragging {
+  background-color: black;
+  color: white;
+}
